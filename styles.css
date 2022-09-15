@@ -1,0 +1,330 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+:root {
+  --background: #131415;
+  --box: #252525;
+  --box-shadow: #010207;
+  --letras: #ffffff;
+  --btn-degrade-start: #ffa100;
+  --btn-degrade-end: #fb103d;
+}
+
+body {
+  background: var(--background);
+  width: 100%;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  padding: 30px;
+}
+
+.navbar-list {
+  color: var(--letras);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.logo {
+  width: 76px;
+  height: 79px;
+}
+
+.carrito-y-noti{
+  position: relative;
+
+}
+
+.noti{
+  position: absolute;
+  bottom:15px;
+  left: 10px;
+  width: 60%;
+  height: 60%;
+}
+
+.carrito-y-noti p{
+  position: absolute;
+  bottom:10px;
+  left: 13px;
+  font-size: 12px;
+  font-weight: 200;
+}
+
+
+li img {
+  height: 20px;
+  width: 19px;
+  margin-right: 5px;
+  border-radius: 0px;
+  margin-bottom: -4px;
+}
+
+li img {
+  cursor: pointer;
+}
+
+li a {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+li a:hover {
+  cursor: pointer;
+}
+
+.home {
+  vertical-align: middle;
+}
+
+main {
+  display: flexbox;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#presentation {
+  margin-top: 3px;
+  padding: 160px 0;
+  max-width: 1200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  width: auto;
+  height: 70px;
+}
+
+.zappi-info {
+  color: var(--letras);
+  width: 50%;
+  gap: 30px;
+  padding: 5px;
+}
+
+.zappi-info h1 {
+  width: 603px;
+  font-weight: 700;
+  font-size: 66px;
+}
+
+.zappi-info h2 {
+  width: 639px;
+  font-weight: 700;
+  font-size: 51px;
+  margin-bottom: 10px;
+}
+
+.zappi-info p {
+  font-weight: 200;
+  margin-top: 20px;
+  margin-bottom: 45px;
+}
+
+.zappi-info a {
+  color: var(--letras);
+  background: linear-gradient(to right, #ffa100, #fb103d);
+  width: 166px;
+  height: 50px;
+  padding: 15px 40px;
+  border-radius: 16px;
+  font-size: 13px;
+  text-align: center;
+}
+
+.zappi-pizzas {
+  width: 400px;
+  padding: 20px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.pizza-uno {
+  position: relative;
+  width: 265px;
+  height: 265px;
+  position: relative;
+  margin-left: 200px;
+
+  right: 80px;
+}
+
+.pizza-dos {
+  position: absolute;
+  width: 392px;
+  height: 392px;
+  left: 200px;
+  bottom: 0px;
+}
+
+
+/**************************************************Jesus******************************************/
+
+.recomendations{
+  width: 100%;
+  max-width: 1900px;
+  height: 20vh;
+}
+.recomendations h3{
+position: absolute;
+width: 278px;
+height: 23px;
+left: 120px;
+top: 536px;
+font-weight: 500;
+font-size: 22px;
+line-height: 131.02%;
+color: var(--letras);
+}
+
+.recomendations-products{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  gap: 38px;
+  
+}
+
+.recomendations-cards{
+  display: flex;
+  background-color: var(--box);
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  box-shadow: 0px 0px 50px rgba(1, 2, 7, 0.5);
+  border-radius: 15px;
+  height: 103px;
+  width: 347px;
+
+}
+
+.recomendations-cards h4{
+  font-size: 15px;
+  color: var(--letras);
+}
+
+.recomendations-cards a{
+  width: 85px;
+  height: 29px;
+  background: linear-gradient(98.81deg, #FFA100 -0.82%, #FF005C 101.53%);
+  border-radius: 17.5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.5px;
+  color: var(--letras);
+}
+
+.recomendations-cards div :nth-child(2){
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.5px;
+  color: #FFFFFF;
+  mix-blend-mode: normal;
+  opacity: 0.3;
+}
+
+.recomendations-cards div :nth-child(3){
+  font-weight: 700;
+font-size: 19px;
+line-height: 131.02%;
+/* identical to box height, or 25px */
+
+
+background: linear-gradient(98.81deg, #FFA100 -0.82%, #FF005C 101.53%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+}
+
+.recomendations-cards div{
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+
+
+
+
+.food h4{
+  position: relative;
+width: 87px;
+height: 20px;
+left: 120px;
+top: 0px;
+color: var(--letras);
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 800;
+font-size: 15px;
+line-height: 131.02%;
+padding-bottom: 100px;
+}
+
+.food-container-card{
+  display: flex;
+  justify-content: center;
+  gap: 36px;
+}
+
+.food-card{
+width: 147px;
+height: 171px;
+background: #252525;
+box-shadow: 0px 0px 50px rgba(1, 2, 7, 0.5);
+border-radius: 15px;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+gap: 12px;
+margin-top: 32px;
+}
+
+.food-card p {
+  font-weight: 400;
+font-size: 15px;
+line-height: 131.02%;
+color: var(--letras);
+}
+
+.food-card span{
+  width: 24px;
+height: 4px;
+background: linear-gradient(98.81deg, #FFA100 -0.82%, #FF005C 101.53%);
+box-shadow: 0px 0px 50px rgba(1, 2, 7, 0.5);
+border-radius: 15px;
+}
+
