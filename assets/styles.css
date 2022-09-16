@@ -231,6 +231,8 @@ color: var(--letras);
 .recomendations-cards h4{
   font-size: 15px;
   color: var(--letras);
+
+  
 }
 
 .recomendations-cards a{
@@ -285,7 +287,7 @@ text-fill-color: transparent;
   position: relative;
 width: 87px;
 height: 20px;
-left: 120px;
+left: 15px;
 top: 0px;
 color: var(--letras);
 font-family: 'Montserrat';
@@ -293,7 +295,7 @@ font-style: normal;
 font-weight: 800;
 font-size: 15px;
 line-height: 131.02%;
-padding-bottom: 100px;
+padding-bottom: 0px;
 padding-top: 150px;
 }
 
